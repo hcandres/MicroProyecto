@@ -8,8 +8,70 @@
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
         android:text="Operation Basic"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="66dp" />
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="309dp"
+        android:layout_height="94dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="63dp"
+        tools:text="Suma La operación suma consiste en obtener el número total de elementos a partir dos o más cantidades.  a + b = c Los términos de la suma, a y b, se llaman sumandos y el resultado, c, suma." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="306dp"
+        android:layout_height="102dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="178dp"
+        tools:text="La resta o sustracción es la operación inversa a la suma.  a -	b = c Los términos que intervienen en una resta se llaman: a, minuendo y b, sustraendo. Al resultado, c, lo llamamos diferencia." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="299dp"
+        android:layout_height="112dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="295dp"
+        tools:text="Multiplicar dos números consiste en sumar uno de los factores consigo mismo tantas veces como indica el otro factor.  a · b = c Los términos a y b se llaman factores y el resultado, c, producto." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="303dp"
+        android:layout_height="114dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="436dp"
+        tools:text="La división o cociente es una operación aritmética que consiste en averiguar cuántas veces un número está contenido en otro número.  D : d = c Los términos que intervienen en un cociente se llaman, D, dividendo y d divisor. Al resultado, c, lo llamamos cociente." />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="204dp"
+        android:layout_height="16dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="602dp"
+        tools:text="https://www.ditutor.com/numeros_naturales/operaciones.html" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="574dp"
+        tools:text="Mas informacion" />
+
 </android.support.constraint.ConstraintLayout>
