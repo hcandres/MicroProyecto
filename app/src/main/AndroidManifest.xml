@@ -23,6 +23,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".Physical">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINPHYSICAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Trigonometry">
+            <intent-filter>
+                <action android:name="android.intent.action.MAINTRIGONOMETRY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

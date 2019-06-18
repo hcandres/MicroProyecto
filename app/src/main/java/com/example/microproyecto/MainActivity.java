@@ -15,6 +15,8 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,17 +38,26 @@ public class MainActivity extends AppCompatActivity {
         Lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent myIntent = null;
                 int item = position;
 
                 String itemVal = (String)Lista.getItemAtPosition(position);
                 switch (itemVal){
                     case "Calculo":
                         Toast.makeText(MainActivity.this, "INGRESÓ A CALCULO", Toast.LENGTH_SHORT).show();
-                        Intent myIntent = new Intent(view.getContext(),Calculation.class);
-                        startActivity(myIntent);
+                        myIntent = new Intent(view.getContext(),Calculation.class);
                         break;
 
-                }
+                    case "Fisica":
+                        Toast.makeText(MainActivity.this, "INGRESÓ A FISICA", Toast.LENGTH_SHORT).show();
+                        myIntent = new Intent(view.getContext(),Physical.class);
+                        break;
+
+                    case "Trigonometria":
+                        Toast.makeText(MainActivity.this, "INGRESÓ A TRIGONOMETRIA", Toast.LENGTH_SHORT).show();
+                        myIntent = new Intent(view.getContext(),Trigonometry.class);
+                        break;
+                }startActivity(myIntent);
             }
         });
 
