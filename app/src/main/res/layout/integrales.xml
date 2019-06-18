@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Integrales"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="293dp"
+        android:layout_height="41dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="141dp"
+        tools:text="La integral de una constante es igual a la constante por x" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="202dp"
+        android:layout_height="37dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:text="∫ k · dx = k ·x + C" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="103dp"
+        tools:text="Integral de una Constante" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:text="Integral Logaritmica" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="333dp"
+        android:layout_height="128dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="307dp"
+        tools:text="En este apartado vamos a repasar uno de los principales tipos de integrales que nos podemos encontrar cuando realicemos ejercicios de integración como es el de la Integral Logarítmica donde u es una función u' su derivada y C es una constante cualquiera" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="223dp"
+        android:layout_height="39dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="447dp"
+        tools:text="∫ u' / u · dx = Ln u + C " />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="267dp"
+        android:layout_height="32dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="507dp"
+        tools:text="Integral de una potencia" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="337dp"
+        android:layout_height="107dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="539dp"
+        tools:text="En este apartado vamos a repasar uno de los principales tipos de integrales que nos podemos encontrar cuando realicemos ejercicios de integración como es el de la Integral de una Potencia (o Integral de x elevado a un número):" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="298dp"
+        android:layout_height="48dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="646dp"
+        tools:text="∫ xn · dx = [xn+1 / (n+1)] + C" />
+</android.support.constraint.ConstraintLayout>
